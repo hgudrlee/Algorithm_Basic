@@ -82,7 +82,6 @@ int main()
     for (int i = 0; i < num; i++) {
         string str;
         getline(cin, str);
-        cout << "Input: " << str << endl;
         cmds.push_back(str);
     }
 
