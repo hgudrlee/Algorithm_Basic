@@ -30,5 +30,6 @@ int main()
             cout << word.top();
             word.pop();
         }
+        cout << endl;
     }
 }
