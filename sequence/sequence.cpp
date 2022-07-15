@@ -9,7 +9,6 @@ int main()
     vector<int> i_seq;
     vector<char> sign;
     stack<int> t_seq;
-    bool flag = true;
     int num;
     int target = 0;
     cin >> num;
@@ -39,12 +38,12 @@ int main()
             sign.push_back('-');
         }
         else {
-            flag = false;
+            cout << "NO";
+            return 0;
         }
     }
+    
+    for (char s : sign) cout << s << endl;
 
-    if (!flag) cout << "NO";
-    else {
-        for (char s : sign) cout << s << endl;
-    }
+    return 0;
 }
