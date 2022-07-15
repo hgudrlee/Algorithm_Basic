@@ -30,7 +30,7 @@ int main()
     }
 
     if (seq.empty()) {
-        for (int i = 0; i < sign.size(); i++) cout << sign[i] << endl;
+        for (int i = 0; i < sign.size(); i++) cout << sign[i] << '\n';
     }
     else cout << "NO";
 }

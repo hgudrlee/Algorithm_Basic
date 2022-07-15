@@ -38,7 +38,7 @@ int main()
         }
     }
 
-    for (char s : sign) cout << s << endl;
+    for (char s : sign) cout << s << '\n';
 
     return 0;
 }
