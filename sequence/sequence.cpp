@@ -16,8 +16,8 @@ int main()
 
     for (int i = 0; i < num; i++) cin >> i_seq[i];
 
-    for (int i = 0; i < num; i++)
-    {
+    for (int i = 0; i < num; i++) {
+    
         if (i_seq[i] > target) {
             for (int j = target; j < i_seq[i]; j++) 
             {

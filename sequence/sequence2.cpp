@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    vector<int> input;
+    int input[100001];
     vector<char> sign;
     stack<int> seq;
     int num;
@@ -14,13 +14,8 @@ int main()
     cin >> num;
     cin.ignore();
 
-    for (int i = 0; i < num; i++)
-    {
-        int n;
-        cin >> n;
-        input.push_back(n);
-    }
-
+    for (int i = 0; i < num; i++) cin >> input[i];
+    
     for (int i = 1; i <= num; i++)
     {
         seq.push(i);
