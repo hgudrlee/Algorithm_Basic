@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    int i_seq[10000];
+    vector<int> i_seq;
     vector<char> sign;
     stack<int> t_seq;
     int num;
@@ -14,7 +14,12 @@ int main()
     cin >> num;
     cin.ignore();
 
-    for (int i = 0; i < num; i++) cin >> i_seq[i];
+    for (int i = 0; i < num; i++)
+    {
+        int n;
+        cin >> n;
+        i_seq.push_back(n);
+    }
 
     for (int i = 0; i < num; i++) {
     
